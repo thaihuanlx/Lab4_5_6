@@ -18,7 +18,6 @@ namespace Lab4_5_6.Controllers
         }
         // GET: Courses
         [Authorize]
-        [HttpPost]
         public ActionResult Create()
         {
             var viewModel = new CourseViewModel
