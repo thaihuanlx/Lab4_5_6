@@ -16,7 +16,7 @@
     white-space: normal;
 }
 .navbar-inverse {
-    background-color: #045210;
+    background-color: #f99306;
     border-color: #080808;
 }
 .course {
@@ -28,7 +28,7 @@
 }
 .course > li .date {
     text-align: center;
-    background-color: #1f7605;
+    background-color: #ec7707;
     color: white;
     width: 60px;
     border-radius: 8px;
