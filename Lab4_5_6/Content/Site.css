@@ -19,6 +19,12 @@
     background-color: #f99306;
     border-color: #080808;
 }
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
 .course {
     list-style: none;
 }
@@ -37,6 +43,14 @@
     position: absolute;
     top: 0;
     left: 70px;
+}
+.course > li .action {
+    display: none;
+    left: 70px;
+    position: absolute;
+}
+.course > li:hover .action {
+    display: block;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
